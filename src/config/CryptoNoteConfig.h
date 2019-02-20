@@ -207,17 +207,16 @@ const uint64_t DATABASE_READ_BUFFER_MB_DEFAULT_SIZE          = 10;
 const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES               = 100;
 const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT     = 2;
 
-const char     LATEST_VERSION_URL[]                          = "https://github.com/Txcelsior/releases";
-const std::string LICENSE_URL                                = "https://github.com/xlscoin/excelsior/blob/master/LICENSE";
+const char     LATEST_VERSION_URL[]                          = "https://github.com/TravelersToken/TravelCoin/releases";
+const std::string LICENSE_URL                                = "https://github.com/TravelersToken/TravelCoin/blob/master/LICENSE";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
-    {  0x65, 0x78, 0x63, 0x65, 0x6c, 0x73, 0x69, 0x6f, 0x72, 0x62, 0x79, 0x6d, 0x6f, 0x72, 0x70, 0x68  }
+    {  0x68, 0x75, 0x63, 0x67, 0x8c, 0x75, 0x69, 0x6f, 0x72, 0x64, 0x79, 0x6d, 0x5f, 0x72, 0x70, 0x68  }
 };
 
 const char* const SEED_NODES[] = {
-  "185.17.27.105:19801",   //
-  "104.238.222.130:19801", //
-  "185.103.97.205:19801",  //
-  "97.64.253.98:19801"     //
-};
+  "155.138.196.244:19701",   //
+  "155.138.204.225:19701", //
+  "155.138.204.141:19701",  //
+ };
 } // CryptoNote
